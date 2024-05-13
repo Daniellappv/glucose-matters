@@ -8,7 +8,7 @@ datapackage:
   resources:
   - path: high-gi-foods.csv
     title: High Glycemic Index foods
-    description: this is the overvier of some common high glycemic index foods
+    description: list of some common high glycemic index foods
     name: high-gi-foods
     format: csv
     schema:
@@ -19,6 +19,7 @@ datapackage:
         type: number
   - path: high-gl-foods.csv
     title: High Glycemic Load foods
+    description: list of some common high glycemic load foods
     name: high-gl-foods
     format: csv
     schema:
@@ -30,6 +31,7 @@ datapackage:
   - path: medium-gi-foods.csv
     title: Medium Glycemic Index foods
     name: medium-gi-foods
+    description: list of some common medium glycemic index foods
     format: csv
     schema:
       fields:
@@ -40,6 +42,7 @@ datapackage:
   - path: medium-gl-foods.csv
     title: Medium Glycemic Load foods
     name: high-gl-foods
+    description: list of some common medium glycemic load foods
     format: csv
     schema:
       fields:
@@ -50,6 +53,7 @@ datapackage:
   - path: low-gi-foods.csv
     title: Low Glycemic Index foods
     name: low-gi-foods
+    description: list of some common low glycemic index foods
     format: csv
     schema:
       fields:
@@ -60,6 +64,8 @@ datapackage:
   - path: low-gl-foods.csv
     title: Low Glycemic Load foods
     name: high-gl-foods
+    description: list of some common low glycemic load foods
+    size: 1MB
     format: csv
     schema:
       fields:
