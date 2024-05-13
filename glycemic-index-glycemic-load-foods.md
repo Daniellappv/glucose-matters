@@ -8,6 +8,7 @@ datapackage:
   resources:
   - path: high-gi-foods.csv
     title: High Glycemic Index foods
+    description: this is the overvier of some common high glycemic index foods
     name: high-gi-foods
     format: csv
     schema:
