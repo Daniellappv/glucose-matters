@@ -1,38 +1,4 @@
 ---
-frictionless:
-  name: dglycemic-index-vs-glycemic-load-foods
-  title: 
-  resources:
-  - dpp:streaming: true
-    encoding: utf-8
-    format: csv
-    mediatype: text/csv
-    name: dataset-abc
-    path: data/dataset-abc.csv
-    profile: tabular-data-resource
-    title: Dataset ABC
-    schema:
-      fields:
-      - format: any
-        name: Date
-        type: date
-      - format: default
-        name: Value
-        type: number
-      missingValues:
-      - ''
-  views:
-  - name: graph
-    spec:
-      group: Date
-      series:
-      - Value
-      type: line
-    specType: simple
-    title: Dataset ABC
----
-
----
 datapackage:
   title: Glycemic Index and Glycemic Load of common foods
   description: This is an overview of the glycemic index and the glycemic load of the common foods. 
