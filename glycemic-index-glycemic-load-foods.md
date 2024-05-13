@@ -1,6 +1,110 @@
+---
+frictionless:
+  name: dglycemic-index-vs-glycemic-load-foods
+  title: 
+  resources:
+  - dpp:streaming: true
+    encoding: utf-8
+    format: csv
+    mediatype: text/csv
+    name: dataset-abc
+    path: data/dataset-abc.csv
+    profile: tabular-data-resource
+    title: Dataset ABC
+    schema:
+      fields:
+      - format: any
+        name: Date
+        type: date
+      - format: default
+        name: Value
+        type: number
+      missingValues:
+      - ''
+  views:
+  - name: graph
+    spec:
+      group: Date
+      series:
+      - Value
+      type: line
+    specType: simple
+    title: Dataset ABC
+---
+
+---
+datapackage:
+  title: Glycemic Index and Glycemic Load of common foods
+  description: This is an overview of the glycemic index and the glycemic load of the common foods. 
+  licenses:
+  - path: http://opendatacommons.org/licenses/pddl/
+    title: Daniela Popova license 
+  resources:
+  - path: high-gi-foods.csv
+    title: High Glycemic Index foods
+    name: high-gi-foods
+    format: csv
+    schema:
+      fields:
+      - name: Foods
+        type: string
+      - name: GI
+        type: number
+  - path: high-gl-foods.csv
+    title: High Glycemic Load foods
+    name: high-gl-foods
+    format: csv
+    schema:
+      fields:
+      - name: Foods
+        type: string
+      - name: GL
+        type: number
+  - path: medium-gi-foods.csv
+    title: Medium Glycemic Index foods
+    name: medium-gi-foods
+    format: csv
+    schema:
+      fields:
+      - name: Foods
+        type: string
+      - name: GI
+        type: number
+  - path: medium-gl-foods.csv
+    title: Medium Glycemic Load foods
+    name: high-gl-foods
+    format: csv
+    schema:
+      fields:
+      - name: Foods
+        type: string
+      - name: GL
+        type: number
+  - path: low-gi-foods.csv
+    title: Low Glycemic Index foods
+    name: low-gi-foods
+    format: csv
+    schema:
+      fields:
+      - name: Foods
+        type: string
+      - name: GI
+        type: number
+  - path: low-gl-foods.csv
+    title: Low Glycemic Load foods
+    name: high-gl-foods
+    format: csv
+    schema:
+      fields:
+      - name: Foods
+        type: string
+      - name: GL
+        type: number
+---
+
 # glycemic-index-vs-glycemic-load-foods
 
-This is an overview of the glycemic index and the glycemic load of the common foods. 
+
 
 ## Definitions
 
