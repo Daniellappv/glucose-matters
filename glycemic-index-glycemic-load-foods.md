@@ -65,7 +65,7 @@ datapackage:
     title: Low Glycemic Load foods
     name: high-gl-foods
     description: list of some common low glycemic load foods
-    size: 1MB
+    size: 1
     format: csv
     schema:
       fields:
