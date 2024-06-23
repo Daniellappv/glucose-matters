@@ -1,4 +1,5 @@
 ---
+datapackage:
   title: Diabetes Dataset
   description: This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements, incl. glucose levels and insulin, whether a patient has diabetes.
   resources:
