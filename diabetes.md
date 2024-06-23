@@ -30,7 +30,6 @@ diabetes")**
 
 The 'DiabetesPedigreeFunction' is a function that scores the probability of diabetes based on family history, with a realistic range of 0.08 to 2.42. Age has a realistic range from 21 to 81.
 
-
 ## Data card 
 
 ### Context
@@ -69,13 +68,11 @@ _(301) 953-6231_
    the onset of diabetes mellitus.  In {\it Proceedings of the Symposium
    on Computer Applications and Medical Care} (pp. 261--265).  IEEE
    Computer Society Press.
-
 2. The diagnostic, binary-valued variable investigated is whether the
    patient shows signs of diabetes according to World Health Organization
    criteria (i.e., if the 2 hour post-load plasma glucose was at least 
    200 mg/dl at any survey  examination or if found during routine medical
    care).   The population lives near Phoenix, Arizona, USA.
-
 3. Results: Their ADAP algorithm makes a real-valued prediction between
    0 and 1.  This was transformed into a binary decision using a cutoff of 
    0.448.  Using 576 training instances, the sensitivity and specificity
@@ -83,9 +80,5 @@ _(301) 953-6231_
 
 **Relevant information**
 
-  Several constraints were placed on the selection of these instances from
-  a larger database.  In particular, all patients here are females at
-  least 21 years old of Pima Indian heritage.  ADAP is an adaptive learning
-  routine that generates and executes digital analogs of perceptron-like
-  devices.  It is a unique algorithm; see the paper for details.
+Several constraints were placed on the selection of these instances from a larger database.  In particular, all patients here are females at least 21 years old of Pima Indian heritage.  ADAP is an adaptive learning routine that generates and executes digital analogs of perceptron-like devices.  It is a unique algorithm; see the paper for details.
 
