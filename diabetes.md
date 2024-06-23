@@ -34,9 +34,8 @@ The 'DiabetesPedigreeFunction' is a function that scores the probability of diab
 
 ## Data card 
 
-### Context
-
-This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes.
+> [!note]
+> This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes.
 
 ### Content
 
