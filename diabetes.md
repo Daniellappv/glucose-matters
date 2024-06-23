@@ -14,6 +14,7 @@
 **Number of Instances: 768**
 **Number of Attributes: 8 plus class**
 **For Each Attribute: (all numeric-valued)**
+
 1. Number of times pregnant
 2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test
 3. Diastolic blood pressure (mm Hg)
@@ -33,9 +34,11 @@ The 'DiabetesPedigreeFunction' is a function that scores the probability of diab
 ## Data card 
 
 ### Context
+
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes.
 
 ### Content
+
 Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 
 - Pregnancies: Number of times pregnant
@@ -59,24 +62,15 @@ _Johns Hopkins Road_
 _Laurel, MD 20707_     
 _(301) 953-6231_     
 - (c) Date received: 9 May 1990
-- https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+- (d) https://www.kaggle.com/datasets/mathchi/diabetes-data-set
 
 **Past Usage:**
 
-1. Smith,~J.~W., Everhart,~J.~E., Dickson,~W.~C., Knowler,~W.~C., \&
-   Johannes,~R.~S. (1988). Using the ADAP learning algorithm to forecast
-   the onset of diabetes mellitus.  In {\it Proceedings of the Symposium
-   on Computer Applications and Medical Care} (pp. 261--265).  IEEE
-   Computer Society Press.
-2. The diagnostic, binary-valued variable investigated is whether the
-   patient shows signs of diabetes according to World Health Organization
-   criteria (i.e., if the 2 hour post-load plasma glucose was at least 
-   200 mg/dl at any survey  examination or if found during routine medical
-   care).   The population lives near Phoenix, Arizona, USA.
-3. Results: Their ADAP algorithm makes a real-valued prediction between
-   0 and 1.  This was transformed into a binary decision using a cutoff of 
-   0.448.  Using 576 training instances, the sensitivity and specificity
-   of their algorithm was 76% on the remaining 192 instances.
+```
+1. Smith,~J.~W., Everhart,~J.~E., Dickson,~W.~C., Knowler,~W.~C., \& Johannes,~R.~S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus.  In {\it Proceedings of the Symposium on Computer Applications and Medical Care} (pp. 261--265).  IEEE Computer Society Press.
+2. The diagnostic, binary-valued variable investigated is whether the patient shows signs of diabetes according to World Health Organization criteria (i.e., if the 2 hour post-load plasma glucose was at least 200 mg/dl at any survey  examination or if found during routine medical care).   The population lives near Phoenix, Arizona, USA.
+3. Results: Their ADAP algorithm makes a real-valued prediction between 0 and 1.  This was transformed into a binary decision using a cutoff of 0.448.  Using 576 training instances, the sensitivity and specificity of their algorithm was 76% on the remaining 192 instances.
+```
 
 **Relevant information**
 
