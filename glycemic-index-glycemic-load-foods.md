@@ -89,23 +89,7 @@ TODO
 
 ## Glycemic index of the common foods
 
-<FlatUiTable
-  data={{
-    url: 'overview-gi.csv'
-  }}
- />
 
-<FlatUiTable
-  data={{
-    url: 'low-gi-foods.csv'
-  }}
- />
-
- <FlatUiTable
-  data={{
-    url: 'medium-gi-foods.csv'
-  }}
- />
 
  <FlatUiTable
   data={{
@@ -115,29 +99,7 @@ TODO
 
 ## Glycemic load of the common foods
 
-<FlatUiTable
-  data={{
-    url: 'overview-gl.csv'
-  }}
- />
 
-<FlatUiTable
-  data={{
-    url: 'low-gl-foods.csv'
-  }}
- />
-
- <FlatUiTable
-  data={{
-    url: 'medium-gl-foods.csv'
-  }}
- />
-
- <FlatUiTable
-  data={{
-    url: 'high-gl-foods.csv'
-  }}
- />
 
 ## Source
 
