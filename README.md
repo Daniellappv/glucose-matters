@@ -1,7 +1,7 @@
 <div class="hero">
     <h1 class="hero-title">Glucose goddess movement<br/>🩸🥘👟</h1>
     <p class="hero-description">Welcome to my personal page inspired by the glucose goddess movement. I will be the voice of the latest science-based findings and insights. !</p>
-    <a href="https://datahub.io/@Daniellappv/glucose-matters-2/glycemic-index-glycemic-load-foods#High%20Glycemic%20Index%20foods" class="hero-button">See my blog</a>
+    <a href="https://datahub.io/@Daniellappv/glucose-matters-2#insights" class="hero-button">See insights</a>
 </div>
 
 # Glucose goddess movement
@@ -22,8 +22,11 @@ Thanks to her biochemist background, she can explain in a digestible manner how 
 
 ## Insights 
 
-Let's start by understanding what is a glycemic index/load and how to find out which foods are high in GI/GL and which are low or medium. 
-
 <div class="middle-button-container">
     <a href="https://datahub.io/@Daniellappv/glucose-matters-2/glycemic-index-glycemic-load-foods#High%20Glycemic%20Index%20foods" class="middle-button">Go to Glycemic index foods</a>
 </div>
+
+<div class="middle-button-container">
+    <a href="https://datahub.io/@Daniellappv/glucose-matters-2/diabetes" class="middle-button">Go to Diabetes Dataset</a>
+</div>
+
