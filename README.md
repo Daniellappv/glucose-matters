@@ -23,17 +23,17 @@ Thanks to her biochemist background, she can explain in a digestible manner how 
 ## Insights 
 
 <div class="middle-button-container">
-    <h3 class="hero-title">Glycemic Index Glycemic Load Foods<br/>🥫🍹</h3>
+    <h3 class="h3-title-heading">Glycemic Index Glycemic Load Foods<br/>🥫🍹</h3>
     <a href="https://datahub.io/@Daniellappv/glucose-matters-2/glycemic-index-glycemic-load-foods#High%20Glycemic%20Index%20foods" class="middle-button">Go to Glycemic index foods</a>
 </div>
 
 <div class="middle-button-container">
-    <h3 class="hero-title">Diabetes Prediction Dataset<br/>⚕️🐘</h3>
+    <h3 class="h3-title-heading">Diabetes Prediction Dataset<br/>⚕️🐘</h3>
     <a href="https://datahub.io/@Daniellappv/glucose-matters-2/diabetes" class="middle-button">Go to Diabetes Dataset</a>
 </div>
 
 <div class="middle-button-container">
-    <h3 class="hero-title">Stroke Prediction Dataset<br/>🫀🎲</h3>
+    <h3 class="h3-title-heading">Stroke Prediction Dataset<br/>🫀🎲</h3>
     <a href="https://datahub.io/@Daniellappv/glucose-matters-2/stroke-dataset" class="middle-button">Go to Stroke Prediction Dataset</a>
 </div>
 
