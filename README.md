@@ -24,6 +24,6 @@ Thanks to her biochemist background, she can explain in a digestible manner how 
 
 Let's start by understanding what is a glycemic index/load and how to find out which foods are high in GI/GL and which are low or medium. 
 
-<div class="middle-button-container" style="text-align: center;">
+<div class="middle-button-container">
     <a href="https://datahub.io/@Daniellappv/glucose-matters-2/glycemic-index-glycemic-load-foods#High%20Glycemic%20Index%20foods" class="middle-button">Go to Glycemic index foods</a>
 </div>
