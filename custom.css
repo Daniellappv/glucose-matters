@@ -56,6 +56,25 @@ h3, h6 {
 }
 
 .hero-button:hover {
-  background-color: #D679AC;
+  background-color: #de7914;
   color: #fff;
 }
+
+.middle-button-container {
+  text-align: center;
+  margin: 30px 0; 
+        }
+
+.middle-button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+        }
+
+.middle-button:hover {
+  background-color: #45a049;
+        }
