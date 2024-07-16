@@ -1,7 +1,7 @@
 <div class="hero">
     <h1 class="hero-title">Glucose goddess movement<br/>🩸🥘👟</h1>
     <p class="hero-description">Welcome to my personal page inspired by the glucose goddess movement. I will be the voice of the latest science-based findings and insights. !</p>
-    <a href="/blog" class="hero-button">See my blog</a>
+    <a href="https://datahub.io/@Daniellappv/glucose-matters-2/glycemic-index-glycemic-load-foods#High%20Glycemic%20Index%20foods" class="hero-button">See my blog</a>
 </div>
 
 # Glucose goddess movement
