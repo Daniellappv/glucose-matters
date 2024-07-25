@@ -2,12 +2,34 @@
 datapackage:
   title: Stroke Prediction Dataset
   description: This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
-  - name: healthcare-dataset-stroke-data.csv
+  updated: 2024-07-25
+  sources: 
+  - path: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+    title: Kaggle
+  resources:
+  - name: healthcare-dataset-stroke-data
     title: Stroke prediction dataset
     description: Each row in the data provides relavant information about the patient.
     lastModified: 2024-07-16
     path: healthcare-dataset-stroke-data.csv
 ---
+
+  title: Welcome to your template dataset page!
+  description: This is a template for publishing your dataset with Datahub Cloud.
+  created: 2024-01-01
+
+  licenses:
+  - path: http://opendatacommons.org/licenses/pddl/
+    title: Open Data Commons Public Domain Dedication and License v1.0
+  sources:
+  - path: http://link.to/data/source
+    title: Link to data source
+  resources:
+  - name: c02-per-decade
+    title: C02 PPM per decade
+    description: C02 PPM per decade
+    lastModified: 2024-01-15
+    path: data.csv
 
 ## Context 
 
