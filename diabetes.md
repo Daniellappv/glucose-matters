@@ -2,6 +2,10 @@
 datapackage:
   title: Diabetes Dataset
   description: This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements, incl. glucose levels and insulin, whether a patient has diabetes.
+  updated: 2024-07-25
+  sources:
+  - path: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+    title: Kaggle
   resources:
   - name: diabetes.csv
     title: Diabetes prediction dataset
@@ -9,6 +13,8 @@ datapackage:
     lastModified: 2024-06-23
     path: diabetes.csv
 ---
+
+
 
 ## About this Dataset
 
