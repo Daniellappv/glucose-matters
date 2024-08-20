@@ -98,31 +98,33 @@ h3, h6 {
     margin-bottom: 20px;
 }
 
-/* Button Outside Hero */
-.outside-button {
-    margin-top: -20px; /* Pull button closer to hero */
-    text-align: center;
-}
 /* Hero Section Adjustments */
 .hero {
-    height: 300px; /* Reduce height */
-    padding: 20px 36px; /* Adjust padding */
-    justify-content: flex-start; /* Align content towards the top */
-}
-
-.hero-title {
-    font-size: 2.5rem; /* Smaller title size */
-    margin-bottom: 10px;
-}
-
-.hero-description {
-    font-size: 1.2rem; /* Smaller description size */
-    margin-bottom: 20px;
+    height: 250px; /* Reduce height further */
+    padding: 20px 36px;
+    justify-content: flex-start;
+    margin-bottom: 0; /* Remove any extra bottom margin */
 }
 
 /* Button Outside Hero */
-.outside-button {
-    margin-top: -20px; /* Pull button closer to hero */
+.outside-button-container {
     text-align: center;
+    margin-top: 20px; /* Adjust spacing between hero and button */
+}
+
+.outside-button-container .middle-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.outside-button-container .middle-button:hover {
+    background-color: #de7914;
+    color: #fff;
 }
 ```
