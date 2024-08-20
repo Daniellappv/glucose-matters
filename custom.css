@@ -66,6 +66,8 @@ h3, h6 {
   background-color: #e3ecec; /* Light gray background */
   color: #4a4a4a; /* Darker gray text */
   padding: 12px 24px;
+  margin: 0 auto;   /* Center the container */
+  text-align: center; /* Center text content */
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
