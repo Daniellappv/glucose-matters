@@ -45,9 +45,10 @@ h3, h6 {
   margin-bottom: 20px;
 }
 
+/* Hero Button */
 .hero-button {
-  background-color: #fdfdfd;
-  color: #4a4a4a;
+  background-color: #bfd7d6; /* Light teal background */
+  color: #3e4c49; /* Darker teal text */
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -56,19 +57,14 @@ h3, h6 {
 }
 
 .hero-button:hover {
-  background-color: #de7924;
+  background-color: #de7924; /* Bright hover */
   color: #fff;
 }
 
 /* Middle Button */
-.middle-button-container {
-  text-align: center;
-  margin: 40px 0; 
-}
-
 .middle-button {
-  background-color: #fdfdfd;
-  color: #4a4a4a;
+  background-color: #e3ecec; /* Light gray background */
+  color: #4a4a4a; /* Darker gray text */
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -77,7 +73,7 @@ h3, h6 {
 }
 
 .middle-button:hover {
-  background-color: #de7924;
+  background-color: #de7924; /* Bright hover */
   color: #fff;
 }
 
