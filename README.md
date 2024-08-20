@@ -1,8 +1,9 @@
 <div class="hero">
     <h1 class="hero-title">Glucose goddess movement<br/>🩸🥘👟</h1>
     <p class="hero-description">Welcome to my personal page inspired by the glucose goddess movement. I will be the voice of the latest science-based findings and insights</p>
-    <a href="https://datahub.io/@Daniellappv/glucose-matters-2#insights" class="hero-button">See insights</a>
 </div>
+
+<a href="https://datahub.io/@Daniellappv/glucose-matters-2#insights" class="hero-button">See insights</a>
 
 # Glucose goddess movement
 
