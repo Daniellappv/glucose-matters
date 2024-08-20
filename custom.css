@@ -80,4 +80,49 @@ h3, h6 {
   background-color: #de7924;
   color: #fff;
 }
+
+/* Hero Section Adjustments */
+.hero {
+    height: 300px; /* Reduce height */
+    padding: 20px 36px; /* Adjust padding */
+    justify-content: flex-start; /* Align content towards the top */
+}
+
+.hero-title {
+    font-size: 2.5rem; /* Smaller title size */
+    margin-bottom: 10px;
+}
+
+.hero-description {
+    font-size: 1.2rem; /* Smaller description size */
+    margin-bottom: 20px;
+}
+
+/* Button Outside Hero */
+.outside-button {
+    margin-top: -20px; /* Pull button closer to hero */
+    text-align: center;
+}
+/* Hero Section Adjustments */
+.hero {
+    height: 300px; /* Reduce height */
+    padding: 20px 36px; /* Adjust padding */
+    justify-content: flex-start; /* Align content towards the top */
+}
+
+.hero-title {
+    font-size: 2.5rem; /* Smaller title size */
+    margin-bottom: 10px;
+}
+
+.hero-description {
+    font-size: 1.2rem; /* Smaller description size */
+    margin-bottom: 20px;
+}
+
+/* Button Outside Hero */
+.outside-button {
+    margin-top: -20px; /* Pull button closer to hero */
+    text-align: center;
+}
 ```
