@@ -1,81 +1,83 @@
-/* Change heading fonts and colors */
+```css
+/* Background */
 .bg-background {
-    background: #f9f6f1 !important;
+    background: #f5f3f0 !important;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lucida Console", "Courier New", monospace !important;
-    font-weight: bold !important;
+    font-family: "Lucida Sans", "Verdana", sans-serif !important;
+    font-weight: 700 !important;
 }
 
 h1, h4 {
-    color: #22807c !important;
+    color: #205a67 !important;
 }
 
 h2, h5 {
-    color: #22807c !important;
+    color: #348c8b !important;
 }
 
 h3, h6 {
-    color: #22807c !important;
+    color: #49797b !important;
 }
 
-...
-
+/* Hero Section */
 .hero {
-  background-color: #508484;
+  background-color: #405d60;
   height: 500px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #fdfdfd;
   padding: 0 36px;
 }
 
 .hero-title {
   font-size: 4rem;
-    color: #2f7680 !important;
-    margin-bottom: 0px;
+  color: #28596b !important;
+  margin-bottom: 10px;
 }
 
 .hero-description {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
 }
 
 .hero-button {
-  background-color: #fff;
-  color: #333;
-  padding: 10px 20px;
-  border-radius: 5px;
+  background-color: #fdfdfd;
+  color: #4a4a4a;
+  padding: 12px 24px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
 }
 
 .hero-button:hover {
-  background-color: #de7914;
+  background-color: #de7924;
   color: #fff;
 }
 
+/* Middle Button */
 .middle-button-container {
   text-align: center;
-  margin: 30px 0; 
-        }
+  margin: 40px 0; 
+}
 
 .middle-button {
-  background-color: #fff;
-  color: #333;
-  padding: 10px 20px;
-  border-radius: 5px;
+  background-color: #fdfdfd;
+  color: #4a4a4a;
+  padding: 12px 24px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
-        }
+}
 
 .middle-button:hover {
-  background-color: #de7914;
+  background-color: #de7924;
   color: #fff;
-        }
+}
+```
