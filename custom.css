@@ -140,4 +140,10 @@ h3, h6 {
     background-color: #de7914;
 }
 
+.middle-button-container {
+  margin: 0 auto;   /* Center the container */
+  text-align: center; /* Center text content */
+}
+
+
 ```
