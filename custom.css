@@ -100,31 +100,46 @@ h3, h6 {
 
 /* Hero Section Adjustments */
 .hero {
-    height: 250px; /* Reduce height further */
-    padding: 20px 36px;
-    justify-content: flex-start;
-    margin-bottom: 0; /* Remove any extra bottom margin */
+    height: auto; /* Let content determine height */
+    padding: 40px 20px; /* Adjust padding */
+    text-align: left; /* Align text to left */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align content to left */
+    background-color: #eaf4f4; /* Lightened background */
 }
 
-/* Button Outside Hero */
+/* Hero Title and Description */
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #205a67;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #49797b;
+}
+
+/* Separate Button Styling */
 .outside-button-container {
-    text-align: center;
-    margin-top: 20px; /* Adjust spacing between hero and button */
+    margin-top: 20px;
+    text-align: center; /* Center align button */
 }
 
 .outside-button-container .middle-button {
-    display: inline-block;
-    background-color: #fff;
-    color: #333;
+    background-color: #508484;
+    color: #fff;
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition: all 0.3s ease-in-out;
 }
 
 .outside-button-container .middle-button:hover {
     background-color: #de7914;
-    color: #fff;
 }
+
 ```
